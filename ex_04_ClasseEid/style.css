@@ -1,0 +1,36 @@
+/* Adicionando CSS */
+/* Com seletor 'TAG'*/
+
+h1{
+    color: darkviolet;
+    font-size: 15px;
+}
+h2{
+    color: rgb(109, 84, 120);
+    font-size: 15px;
+}
+p{
+    font-weight: bold;
+}
+/* Adicionando CSS*/
+/* Com seletor 'ID'*/
+/*ID' Não pode ser compartilhado*/
+
+#p2{
+    color: rgb(7, 173, 245);
+    font-size: 15px;
+}
+/* Adicionando CSS*/
+/*Com seletor 'class'*/
+.p-texto{
+    color: aqua;
+    font-weight: normal;
+}
+.p-{
+    color: rgb(7, 114, 114);
+    font-weight: normal;
+}
+text{
+    color: rgb(2, 46, 46);
+    font-weight: normal;
+}
