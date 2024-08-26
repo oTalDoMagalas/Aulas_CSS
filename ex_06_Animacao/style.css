@@ -1,0 +1,61 @@
+@keyframes animation-div {
+    from {background-color: aquamarine;}
+    to {background-color: greenyellow;}
+}
+
+@keyframes animation-div2{
+    0%{}
+    30%{width: 100px;}
+    60%{background-color:black;}
+    80%{left: 100px; background-color:black;}
+    100%{heitght: 100px;}
+}
+
+@keyframes animation-div3{
+    from {background-color: aquamarine;}
+    to {background-color: greenyellow;}
+}
+@keyframes animation-div4{
+    0%{}
+    30%{width: 100px;}
+    60%{background-color:black;}
+    80%{left: 100px; background-color:black;}
+    100%{heitght: 100px;}
+}
+
+.animation-div{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: animation-div;
+    animation-duration:10s;
+}
+.animation-div2{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: animation-div2;
+    animation-duration:10s;
+    /* position para mover na tela */
+    position: relative;
+}
+.animation-div3{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: animation-div3;
+    animation-duration: 5s;
+    /* tempo de espera */
+}
+.animation-div4{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: animation-div4;
+    animation-duration: 5s;
+    /* tempo de delay */
+    animation-iteration-count: 3;
+
+}
