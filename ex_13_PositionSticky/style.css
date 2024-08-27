@@ -1,0 +1,51 @@
+/* °static: flow do html; top, left, right e bottom NÃO alteram a posição. */
+/* °relative: flow do html; consigo alterar usando os comandos de direção. */
+/* °absolute posiciona em qualuqer lugar, porém, respeitando o ambiente no qual ela esta, igual na div. */
+/* °fixed: fica fixo em um lugar da tela, mesmo se rolar a tela, mas sempre respeitando o tamanho da tela na qual será exibida */
+/* °sticky: flow do html, e quando movimenta o scroll da tela, ele gruda e fica fixo em um determinado ponto. */
+
+.position{
+    width: 200px;
+    height: 500px;
+    background-color: blue;
+    border-bottom: 3px solid black;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    background-color: aqua;
+    top: 10px;
+    left: 20px;
+}
+.absolute{
+    position: absolute;
+    background-color: rgb(183, 0, 255);
+    top: 0;
+    right: 0;
+}
+.mini-div{
+    width: 30px;
+    height: 30px;
+    border: 2px dotted rgb(114, 244, 0);
+    top: 0;
+    left: 0;
+}
+.fixed{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: rgb(107, 82, 131);
+    right: 50px;
+    bottom: 50px;
+}
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: rgb(126, 0, 244);
+    top: 100px;
+    left: 50px;
+}
