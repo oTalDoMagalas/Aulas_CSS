@@ -1,0 +1,23 @@
+body{
+    font-family: verdana, geneva, tahoma, sans-serif;
+}
+/* Telas Desktop minimo 1024px */
+@media screen and (min-width:1024px){
+    h1{ font-size: 48px; color: red;}
+    p {font-size:24px;}
+}
+
+
+/* Telas Tablet minimo 768px até 1024px */
+@media (min-width:768px) and (min-width:1023pxpx){
+    h1{ font-size: 48px;}
+    p {font-size:24px;}
+    body{background-color: red ;}
+}
+
+/* Telas mobile máximo 767px */
+@media screen and (max-width:767px){
+    h1{ font-size: 20px;}
+    p {font-size:16px;}
+    body{background-color: rgb(181, 161, 161) ;}
+}
